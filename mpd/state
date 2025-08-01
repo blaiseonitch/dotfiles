@@ -1,0 +1,27 @@
+sw_volume: 57
+audio_device_state:1:MPD Output
+state: play
+current: 7
+time: 108.584
+random: 0
+repeat: 1
+single: 1
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:0a4f9edb94a688bf (1).mp3
+1:League of Legends - Bite Marks.mp3
+2:Sting_What_Could_Have_Been_from_the_series_Arcane_League_of_L.mp3
+3:sombr - back to friends.mp3
+4:07 James Arthur - Safe Inside.mp3
+5:Arcane_Renegade_We_Never_Run_from_the_series_Arcane_League.mp3
+6:Royal_the_Serpent_Wasteland_from_the_series_Arcane_League_o.mp3
+7:Freya_Ridings_I_Can_t_Hear_It_Now_from_the_series_Arcane_Leag (1).mp3
+8:Arcane_这样很好_Isha_s_Song_from_the_series_Arcane_League_of_Le.mp3
+9:d4vd (@d4vddd) - Romantic Homicide.mp3
+10:01 Post Malone - Goodbyes (1).mp3
+11:2_5377308293066686682.mp3
+playlist_end

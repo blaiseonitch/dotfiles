@@ -39,5 +39,5 @@ for i in "${!FILENAMES[@]}"; do
 done
 
 # Set wallpaper with swww
-swww img "$SELECTED_PATH" --transition-type any --transition-duration 1
+swww img "$SELECTED_PATH" --transition-type any --transition-duration 1 && wal -i "$SELECETED_PATH"
 

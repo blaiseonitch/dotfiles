@@ -17,17 +17,23 @@
     format = "<b>%s</b>\n%b"
 
 [urgency_low]
-    foreground = "#0A2E15"
-    background = "#68B351"
+    foreground = "#ffffff"
+    background = "#045055"
     timeout = 3
 
 [urgency_normal]
-    foreground = "#0A2E15"
-    background = "#8FCE61"
+    foreground = "#ffffff"
+    background = "#045055"
     timeout = 5
 
 [urgency_critical]
-    background = "#C1CAC4"
-    foreground = "#0A2E15"
+    background = "#045055"
+    foreground = "#ffffff"
     frame_color = "#ff0000"
     timeout = 15
+
+[hyprpicker]
+    appname = hyprpicker
+    foreground = "#ffffff"
+    background = "#045055"
+    timeout = 3
