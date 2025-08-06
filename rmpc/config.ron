@@ -143,21 +143,9 @@
         album_sort_by: Date,
     ),
     tabs: [
-						(
-        name: "Queue",
-        pane: Split(
-            direction: Horizontal,
-            panes: [
-                (size: "40%", pane: Pane(AlbumArt)),
-                (size: "60%", pane: Split(
-                    direction: Vertical,
-                    panes: [
-                        (size: "50%", pane: Pane(Queue)),
-                        (size: "50%", pane: Pane(Cava)),
-                    ],
-                )),
-            ],
-        ),
+					(
+        		name: "Queue",
+						pane: Pane(Queue),
         ),
         (
             name: "Directories",

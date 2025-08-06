@@ -2,16 +2,15 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "margin-top": 0,
+    "margin-top": 5,
     "height": 5, // Waybar height (to be removed for auto height)
-    //"width": 1280, // Waybar width
-    "spacing": 2, // Gaps between modules (4px)
-    // Choose the order of the modules
+    "width": 1500, // Waybar width
+    "spacing": 1, // Gaps between modules (4px)
     "modules-left": [
-	"hyprland/workspaces",
+				"hyprland/window"
     ],
     "modules-center": [
-        "hyprland/window"
+				"hyprland/workspaces",
     ],
     "modules-right": [
         "pulseaudio",
@@ -22,16 +21,7 @@
      	"power-profiles-daemon"
         ],  
    "hyprland/workspaces": {
-	"format": "{name}",
-	"format-icons": {
-		"1": "",
-		"2": "",
-		"3": "",
-		"4": "",
-		"5": "",
-		"active": "",
-		"default": ""
-	},
+	 "format": "{name}",
        "persistent-workspaces": {
              "*": 5, // 5 workspaces by default on every monitor
              "HDMI-A-1": 3 // but only three on HDMI-A-1
@@ -46,16 +36,14 @@
     "clock": {
         "timezone": "Africa/Lagos",
        	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%Y-%m-%d >>> %H:%M}"
+        "format": "{:%d/%m/%Y - %H:%M}"
     },
        "backlight": {
-        // "device": "acpi_video1",
         "format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "battery": {
         "states": {
-            // "good": 95,
             "warning": 30,
             "critical": 15
         },
@@ -64,14 +52,11 @@
         "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
-        //"format-good": "", // An empty format will hide the module
-       // "format-full": "null",
         "format-icons": ["", "", "", "", ""]
     },
      "power-profiles-daemon": {
       "format": "{icon}",
       "tooltip-format": "Power profile: {profile}",
-     // "tooltip": true,
       "format-icons": {
         "default": "",
         "performance": "",
@@ -80,16 +65,12 @@
       }
     },
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "",
         "format-ethernet": "󰈀",
-        //"tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "",
         "format-disconnected": "󰖪"
-       // "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
         "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
@@ -107,16 +88,4 @@
         },
         "on-click": "pavucontrol"
     },
-      "custom/media": {
-        "format": "{icon} {text}",
-        "return-type": "json",
-        "max-length": 40,
-        "format-icons": {
-            "spotify": "",
-            "default": "🎜"
-        },
-        "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-           }
-       }
-}
+    }
