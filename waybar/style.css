@@ -11,7 +11,7 @@ window#waybar {
 	transition: background-color 0.5s ease-in-out;
 }
 
-window#waybar.hidden {
+window# window#waybar.hidden {
 	opacity: 0.2;
 }
 
@@ -37,7 +37,7 @@ button:hover {
 }
 
 #workspaces button.active {
-	background-color: rgba(15, 15, 15, 0.5);
+	background-color: rgba(128, 128, 128, 0.5);
 	border-radius: 20px;
 	color: white;
 }

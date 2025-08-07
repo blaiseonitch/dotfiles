@@ -35,9 +35,9 @@
 	},
 		
     "clock": {
-        "timezone": "africa/lagos",
+        "timezone": "Africa/lagos",
        	"tooltip-format": "<big>{:%y %b}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%d/%m/%y - %H:%m}"
+        "format": "{:%d/%m/%y - %H:%M}"
     },
        "backlight": {
         "format": "{percent}% {icon}",
