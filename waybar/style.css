@@ -94,7 +94,7 @@ button:hover {
 
 @keyframes blink {
 	to {
-		background-color: grey;
+		background-color: rgba(15, 15, 15, 0.5);
 		color: darkgray;
 	}
 }
