@@ -1,0 +1,17 @@
+# GIMP gimp-perspective-clone-tool options
+
+(foreground
+    (color "HSVA float" 16 "\330\136r\76\266\306Z\77\250\100e\77\0\0\200\77" 0))
+(brush "2. Block 01")
+(dynamics "Pressure Size")
+(pattern "Starfield")
+(palette "Standard")
+(brush-size 50)
+(brush-aspect-ratio 3.0600000000000001)
+(brush-angle 2.7755575615628914e-17)
+(brush-spacing 0.099000000000000005)
+(brush-hardness 0.94999998807907104)
+(fade-length 92)
+(fade-repeat sawtooth)
+
+# end of gimp-perspective-clone-tool options

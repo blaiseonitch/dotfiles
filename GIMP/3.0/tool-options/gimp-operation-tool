@@ -1,0 +1,6 @@
+# GIMP gimp-operation-tool options
+
+(foreground
+    (color "HSVA float" 16 "\330\136r\76\266\306Z\77\250\100e\77\0\0\200\77" 0))
+
+# end of gimp-operation-tool options

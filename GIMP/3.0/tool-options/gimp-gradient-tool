@@ -1,0 +1,10 @@
+# GIMP gimp-gradient-tool options
+
+(foreground
+    (color "HSVA float" 16 "\330\136r\76\266\306Z\77\250\100e\77\0\0\200\77" 0))
+(gradient "Skyline")
+(brush-size 51)
+(brush-hardness 0.5)
+(gradient-blend-color-space rgb-linear)
+
+# end of gimp-gradient-tool options

@@ -3,14 +3,24 @@
   "modules": [
     "title",
     "separator",
-    "packages",
-    "shell",
-    "display",
+		"os",
     "de",
+		"shell",
     "wm",
-    "gpu",
+		"terminal",
     "memory",
-    "swap",
-    "disk",
- ]
+		"colors"
+ ],
+  "logo": {
+        "type": "small",
+        "color": {
+            "2": "blue",
+						"1": "red"
+				},
+        "padding": {
+            "top": 1,
+            "right": 6,
+            "left": 6
+        }
+    }
 }
