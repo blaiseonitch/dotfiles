@@ -8,7 +8,8 @@
     "spacing": 1, // gaps between modules (4px)
     "modules-left": [
 				// "hyprland/window",
-				"custom/mpd"
+				// "custom/mpd",
+				"mpris"
     ],
     "modules-center": [
 				"hyprland/workspaces"
@@ -31,11 +32,11 @@
 		
 		"hyprland/window": {
 		 "format": "{class}",
-		 "max-length": 15,
-	},
+		 "max-length": 15
+	 },
 		
     "clock": {
-        "timezone": "Africa/lagos",
+        "timezone": "Africa/Lagos",
        	"tooltip-format": "<big>{:%y %b}</big>\n<tt><small>{calendar}</small></tt>",
         "format": "{:%d/%m/%y - %H:%M}"
     },
@@ -43,7 +44,9 @@
         "format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
+
     "battery": {
+				"interval": 60,
         "states": {
             "warning": 30,
             "critical": 15
@@ -51,7 +54,7 @@
         "format": "{capacity}% {icon}",
         "format-full": "{capacity}% {icon}",
         "format-charging": "⚡{capacity}% {icon}",
-        "format-plugged": "{capacity}% {icon}",
+        "format-plugged": "⚡{capacity}% {icon}",
         "format-icons": ["", "", "", "", ""]
     },
      "power-profiles-daemon": {
@@ -100,4 +103,17 @@
         },
         "on-click": "pavucontrol"
     },
-    }
+
+		"mpris": {
+    	"format": "{title} - {artist}",
+			"format-paused": "⏸ {title} - {artist}",
+  		"format-stopped": "No media playing",
+    	"max-length": 40,
+    	
+			 // Controls
+  		"on-click": "playerctl previous",     
+			"on-click-middle": "playerctl play-pause",   	
+			"on-click-right": "playerctl next"  	
+		}
+
+}
