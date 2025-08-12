@@ -833,3 +833,37 @@
 2025-07-31T22:58:34 exception: Failed to open /home/blaze/.config/mpd/playlists: No such file or directory
 2025-07-31T22:58:37 player: played "Arcane_这样很好_Isha_s_Song_from_the_series_Arcane_League_of_Le.mp3"
 2025-07-31T23:01:48 player: played "Freya_Ridings_I_Can_t_Hear_It_Now_from_the_series_Arcane_Leag (1).mp3"
+2025-08-12T06:50:46 player: played "Alex Warren - Ordinary.mp3"
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+2025-08-12T06:53:21 player: played "Arcane_这样很好_Isha_s_Song_from_the_series_Arcane_League_of_Le.mp3"
+2025-08-12T06:53:42 player: played "01 Post Malone - Goodbyes (1).mp3"
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+2025-08-12T06:55:23 exception: Failed to open /home/blaze/.config/mpd/playlists: No such file or directory
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+2025-08-12T06:57:52 exception: Failed to open /home/blaze/.config/mpd/playlists: No such file or directory
+2025-08-12T06:57:57 exception: Failed to open /home/blaze/.config/mpd/playlists: No such file or directory

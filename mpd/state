@@ -1,11 +1,11 @@
-sw_volume: 57
+sw_volume: 100
 audio_device_state:1:MPD Output
 state: play
-current: 7
-time: 108.584
-random: 0
-repeat: 1
-single: 1
+current: 129
+time: 78.381
+random: 1
+repeat: 0
+single: 0
 consume: 0
 crossfade: 0
 mixrampdb: 0
@@ -18,10 +18,128 @@ playlist_begin
 3:sombr - back to friends.mp3
 4:07 James Arthur - Safe Inside.mp3
 5:Arcane_Renegade_We_Never_Run_from_the_series_Arcane_League.mp3
-6:Royal_the_Serpent_Wasteland_from_the_series_Arcane_League_o.mp3
-7:Freya_Ridings_I_Can_t_Hear_It_Now_from_the_series_Arcane_Leag (1).mp3
-8:Arcane_这样很好_Isha_s_Song_from_the_series_Arcane_League_of_Le.mp3
-9:d4vd (@d4vddd) - Romantic Homicide.mp3
-10:01 Post Malone - Goodbyes (1).mp3
-11:2_5377308293066686682.mp3
+6:Freya_Ridings_I_Can_t_Hear_It_Now_from_the_series_Arcane_Leag (1).mp3
+7:Arcane_这样很好_Isha_s_Song_from_the_series_Arcane_League_of_Le.mp3
+8:d4vd (@d4vddd) - Romantic Homicide.mp3
+9:01 Post Malone - Goodbyes (1).mp3
+10:2_5377308293066686682.mp3
+11:04 James Arthur - Can I Be Him.mp3
+12:Lizzy McAlpine - Apple Pie.mp3
+13:Tom Odell - Black Friday.mp3
+14:01 Coldplay - Adventure of a Lifetime.mp3
+15:Sundial - 24.mp3
+16:King_Princess_Fantastic_from_the_series_Arcane_League_of_Lege.mp3
+17:beabadoobee - A Night To Remember.mp3
+18:01 Alan Walker - Darkside.mp3
+19:01 Alan Walker - Darkside.mp3
+20:01 Alan Walker - Sing Me to Sleep (1).mp3
+21:01 Alec Benjamin - Let Me Down Slowly.mp3
+22:01 Coldplay - Adventure of a Lifetime.mp3
+23:01 Coldplay - Adventure of a Lifetime.mp3
+24:James Arthur - A Year Ago.mp3
+25:01 Kendrick Lamar - All The Stars.mp3
+26:01 Miia - Dynasty.mp3
+27:01 Niall Horan - This Town.mp3
+28:01 Noah Kahan - Hurt Somebody.mp3
+29:01 Patrick Watson - Je te laisserai des mots.mp3
+30:01 Post Malone - Goodbyes (1).mp3
+31:01 SZA - Power is Power.mp3
+32:01 Vancouver Sleep Clinic - Someone To Stay.mp3
+33:02 Rihanna - Where Have You Been (Album Version).mp3
+34:03 Cigarettes After Sex - Sunsetz.mp3
+35:03 Indila - Love Story.mp3
+36:04 Imagine Dragons - Demons.mp3
+37:04 James Arthur - Can I Be Him.mp3
+38:04 Radiohead - Fake Plastic Trees.mp3
+39:05 James Arthur - Car s Outside.mp3
+40:05 Phoebe Bridgers - Scott Street.mp3
+41:05 Radiohead - Let Down.mp3
+42:05 The La s - There She Goes.mp3
+43:05 Tobi Lou - That Old Nu-Nu.mp3
+44:05 Ylvis - You re Fucked.mp3
+45:06 Radiohead - Karma Police.mp3
+46:07 Billie Eilish - when the party's over.mp3
+47:07 Cigarettes After Sex - Cry.mp3
+48:07 James Arthur - Safe Inside.mp3
+49:08 James Arthur - Rewrite The Stars.mp3
+50:This is what the drugs are for.mp3
+51:09 Novo Amor - Repeat Until Death.mp3
+52:Ariana Grande - we can t be friends (wait for your love).mp3
+53:10 AURORA - The Seed.mp3
+54:10 Seafret - Atlantis.mp3
+55:13 Billie Eilish - i love you.mp3
+56:Stromae,_Pomme_“Ma_Meilleure_Ennemie”_from_Arcane_Season_2_Official.mp3
+57:5 Seconds Of Summer - Red Desert.mp3
+58:Ai Higuchi - Itterasshai.mp3
+59:Alan Walker - Alone.mp3
+60:Alan Walker - Alone, Pt. II.mp3
+61:Alan Walker - Who I Am.mp3
+62:Alex Warren - Carry You Home.mp3
+63:Alex Warren - Give You Love.mp3
+64:Alex Warren - Ordinary.mp3
+65:2_5213281413268268166.mp3
+66:AURORA - You Can t Run From Yourself (From  Kaiju No. 8 ).mp3
+67:Bea_Miller_Playground_from_the_series_Arcane_League_of_Legend.mp3
+68:beabadoobee - A Night To Remember.mp3
+69:Ben Kessler - False Art.mp3
+70:Benson Boone - Beautiful Things (Acoustic).mp3
+71:Billie Eilish - What Was I Made For  [From The Motion Pictur.mp3
+72:blackbear - Hot Girl Bummer.mp3
+73:Chris Grey - BRING ME BACK TO LIFE.mp3
+74:Creepy_Nuts_Mirage_OP_Theme_to_Call_of_the_Night_Season_2.mp3
+75:2_5312542475460566087.mp3
+76:D_Meletis_What_Have_They_Done_To_Us_From_Arcane_2_Epic_Ve.mp3
+77:d4vd - Feel It (From The Original Series  Invincible ).mp3
+78:Daniel.mp3 - aero.mp3
+79:Dean Lewis - With You (with Sofia Camara) (1).mp3
+80:GAYLE - abcdefu.mp3
+81:Gigi Perez - Kill For You.mp3
+82:Gigi Perez - Sailor Song.mp3
+83:Gracie Abrams - Best.mp3
+84:Gracie Abrams - Block me out.mp3
+85:Gracie Abrams - Mess It Up.mp3
+86:Imagine Dragons - Enemy (from the series Arcane League of Le (1).mp3
+87:2_5269543229988038230.mp3
+88:2_5404671100212764995.mp3
+89:Imagine Dragons - Take Me to the Beach.mp3
+90:Imogen Heap - Headlock.mp3
+91:Jared Benjamin - Side by Side.mp3
+92:Jonica - Being a Girl.mp3
+93:Jorge Rivera-Herrans - The Underworld.mp3
+94:Jude York - Slipping Through My Fingers.mp3
+95:League of Legends - GODS.mp3
+96:Lizzy McAlpine - doomsday.mp3
+97:Lizzy McAlpine - I Guess.mp3
+98:Lizzy McAlpine - Method Acting (Demo).mp3
+99:Lizzy McAlpine - The Elevator.mp3
+100:New West - Those Eyes.mp3
+101:Niall Horan - You Could Start A Cult (Encore Version).mp3
+102:Noah Kahan - Call Your Mom.mp3
+103:Pharozen_What_Have_They_Done_To_Us_Arcane_Season_2_Epic_Emo.mp3
+104:Post Malone - Only Wanna Be With You (Pokémon 25 Version).mp3
+105:Powfu - death bed (coffee for your head).mp3
+106:Powfu - death bed, Pt. 2.mp3
+107:Regina Pimentel - June (1).mp3
+108:Regina Pimentel - Promise.mp3
+109:Rihanna - Lift Me Up (From Black Panther  Wakanda Forever -.mp3
+110:Sabrina Carpenter - Taste.mp3
+111:softly_echos_scott_street_outro_sped_up_and_reverb_with_rain.mp3
+112:sombr - back to friends.mp3
+113:Sundial - 24.mp3
+114:Sydney Rose - We Hug Now.mp3
+115:SZA - Good Days.mp3
+116:SZA - Saturn.mp3
+117:SZA - Snooze (Acoustic) (feat. Justin Bieber).mp3
+118:Tate McRae - r u ok.mp3
+119:Tate McRae - Sports car.mp3
+120:Tate McRae - you broke me first (1).mp3
+121:The Kid Laroi - Stay.mp3
+122:The Walkers - Unity.mp3
+123:The Weeknd - Timeless.mp3
+124:Tiny Habits - Flicker.mp3
+125:01 Kendrick Lamar - All The Stars.mp3
+126:01 Post Malone - Goodbyes (1).mp3
+127:01 SZA - Power is Power.mp3
+128:Post Malone - Only Wanna Be With You (Pokémon 25 Version).mp3
+129:2_5213281413268268166.mp3
 playlist_end
