@@ -5,7 +5,7 @@
     "margin-top": 5,
     "height": 5, // waybar height (to be removed for auto height)
     "width": 1500, // waybar width
-    "spacing": 1, // gaps between modules (4px)
+    "spacing": 0.5, // gaps between modules (4px)
     "modules-left": [
 				// "hyprland/window",
 				// "custom/mpd",
@@ -15,9 +15,9 @@
 				"hyprland/workspaces"
     ],
     "modules-right": [
+				"tray",
         "pulseaudio",
         "network",
-       	"backlight",
         "battery",
         "clock",
      		"power-profiles-daemon"
