@@ -1,5 +1,5 @@
-#
-# ~/.bashrc
+# Created by newuser for 5.9
+# ~/.zshrc
 #
 
 
@@ -32,5 +32,5 @@ export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-
 export PATH="$HOME/butler-exe:$PATH"
 
 
-eval "$(starship init bash)"
+eval "$(starship init zsh)"
 
