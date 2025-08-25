@@ -4,9 +4,11 @@
 (
     address: "127.0.0.1:6600",
     password: None,
-    theme: Some("catppuccin_mocha"),
+    // theme: Some("catppuccin_mocha"),
+    // theme: None,
+    theme: Some("blaise"),
     cache_dir: None,
-    on_song_change: None,
+    on_song_change: ["~/.config/rmpc/notify"],
     volume_step: 5,
     max_fps: 30,
     scrolloff: 0,
@@ -20,8 +22,7 @@
     browser_song_sort: [Disc, Track, Artist, Title],
     directories_sort: SortFormat(group_by_type: true, reverse: false),
     album_art: (
-        method: UeberzugWayland,
-				// method: Kitty,
+				metho: Auto,
         max_size_px: (width: 1200, height: 1200),
         disabled_protocols: ["http://", "https://"],
         vertical_align: Center,
@@ -149,7 +150,8 @@
         name: "Queue",
         pane: Split(
             direction: Horizontal,
-            panes: [(size: "60%", pane: Pane(Queue)), (size: "40%", pane: Pane(AlbumArt))],
+            // panes: [(size: "60%", pane: Pane(Queue)), (size: "40%", pane: Pane(AlbumArt))],
+            panes: [(size: "60%", pane: Pane(AlbumArt)), (size: "40%", pane: Pane(Queue))],
         ),
     ),
     (
