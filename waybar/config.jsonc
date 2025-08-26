@@ -1,119 +1,130 @@
 // -*- mode: jsonc -*-
 {
-    "layer": "top", // waybar at top layer
-    "position": "top", // waybar position (top|bottom|left|right)
-    "margin-top": 5,
-    "height": 5, // waybar height (to be removed for auto height)
-    "width": 1500, // waybar width
-    "spacing": 0.5, // gaps between modules (4px)
-    "modules-left": [
-				// "hyprland/window",
-				// "custom/mpd",
-				"mpris"
-    ],
-    "modules-center": [
-				"hyprland/workspaces"
-    ],
-    "modules-right": [
-				"tray",
-        "pulseaudio",
-        "network",
-        "battery",
-        "clock",
-     		"power-profiles-daemon"
-        ],  
-   "hyprland/workspaces": {
-	 "format": "{name}",
-       "persistent-workspaces": {
-             "*": 5, // 5 workspaces by default on every monitor
-             "hdmi-a-1": 3 // but only three on hdmi-a-1
-       }
-    },
-		
-		"hyprland/window": {
-		 "format": "{class}",
-		 "max-length": 15
-	 },
-		
-    "clock": {
-        "timezone": "Africa/Lagos",
-       	"tooltip-format": "<big>{:%y %b}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%d/%m/%y - %H:%M}"
-    },
-       "backlight": {
-        "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
-    },
-
-    "battery": {
-				"interval": 60,
-        "states": {
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}% {icon}",
-        "format-full": "{capacity}% {icon}",
-        "format-charging": "⚡{capacity}% {icon}",
-        "format-plugged": "⚡{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""]
-    },
-     "power-profiles-daemon": {
-      "format": "{icon}",
-      "tooltip-format": "power profile: {profile}",
-      "format-icons": {
-        "default": "",
-        "performance": "",
-        "balanced": "",
-        "power-saver": ""
-      }
-    },
-	
-		"custom/mpd": {
-  		"exec": "~/.config/waybar/scripts/mpd_status.sh",
-  		"interval": 2,
-  		"return-type": "json",
-  		"tooltip": true,
-  		"on-click": "mpc prev",
-  		"on-click-right": "mpc next",
-  		"on-click-middle": "mpc toggle"
-		},
-
-
-    "network": {
-        "format-wifi": "",
-        "format-ethernet": "󰈀",
-        "format-linked": "",
-        "format-disconnected": "󰖪"
-    },
-    "pulseaudio": {
-        "format": "{volume}% {icon}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        },
-        "on-click": "pavucontrol"
-    },
-
-		"mpris": {
-    	"format": "{title} - {artist}",
-			"format-paused": "⏸ {title} - {artist}",
-  		"format-stopped": "No media playing",
-    	"max-length": 40,
-    	
-			 // Controls
-  		"on-click": "playerctl previous",     
-			"on-click-middle": "playerctl play-pause",   	
-			"on-click-right": "playerctl next"  	
+	"layer": "top", // waybar at top layer
+	"position": "top", // waybar position (top|bottom|left|right)
+	"margin-top": 5,
+	"height": 5, // waybar height (to be removed for auto height)
+	"width": 1500, // waybar width
+	"spacing": 0.5, // gaps between modules (4px)
+	"modules-left": [
+		// "custom/mpd",
+		"mpris"
+	],
+	"modules-center": [
+		"hyprland/window",
+		"hyprland/workspaces"
+	],
+	"modules-right": [
+		"tray",
+		"pulseaudio",
+		"network",
+		"battery",
+		"clock",
+		"power-profiles-daemon"
+	],
+	"hyprland/workspaces": {
+		"format": "{name}",
+		"persistent-workspaces": {
+			"*": 5, // 5 workspaces by default on every monitor
+			"hdmi-a-1": 3 // but only three on hdmi-a-1
 		}
-
+	},
+	"hyprland/window": {
+		"format": "{class}",
+		"max-length": 15
+	},
+	"clock": {
+		"timezone": "Africa/Lagos",
+		"tooltip-format": "<big>{:%y %b}</big>\n<tt><small>{calendar}</small></tt>",
+		"format": "{:%d/%m/%y - %H:%M}"
+	},
+	"backlight": {
+		"format": "{percent}% {icon}",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"battery": {
+		"interval": 60,
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{capacity}% {icon}",
+		"format-full": "{capacity}% {icon}",
+		"format-charging": "{capacity}% {icon}",
+		"format-plugged": "{capacity}% {icon}",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"power-profiles-daemon": {
+		"format": "{icon}",
+		"tooltip-format": "power profile: {profile}",
+		"format-icons": {
+			"default": "",
+			"performance": "",
+			"balanced": "",
+			"power-saver": ""
+		}
+	},
+	// "custom/mpd": {
+	// 	"exec": "~/.config/waybar/scripts/mpd_status.sh",
+	// 	"interval": 2,
+	// 	"return-type": "json",
+	// 	"tooltip": true,
+	// 	"on-click": "mpc prev",
+	// 	"on-click-right": "mpc next",
+	// 	"on-click-middle": "mpc toggle"
+	// },
+	"network": {
+		"format-wifi": "",
+		"format-ethernet": "󰈀",
+		"format-linked": "",
+		"format-disconnected": "󰖪"
+	},
+	"pulseaudio": {
+		"format": "{volume}% {icon}",
+		"format-bluetooth": "{volume}% {icon} {format_source}",
+		"format-bluetooth-muted": " {icon} {format_source}",
+		"format-muted": " {format_source}",
+		"format-source": "{volume}% ",
+		"format-source-muted": "",
+		"format-icons": {
+			"headphone": "",
+			"hands-free": "",
+			"headset": "",
+			"phone": "",
+			"portable": "",
+			"car": "",
+			"default": [
+				"",
+				"",
+				""
+			]
+		},
+		"on-click": "pavucontrol"
+	},
+	"mpris": {
+		"format": "{title} - {artist}",
+		"format-paused": "⏸ {title} - {artist}",
+		"format-stopped": "No media playing",
+		"max-length": 40,
+		// Controls
+		"on-click": "playerctl previous",
+		"on-click-middle": "playerctl play-pause",
+		"on-click-right": "playerctl next"
+	}
 }

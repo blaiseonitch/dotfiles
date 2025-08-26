@@ -1,16 +1,3 @@
-# #~/bin/bash
-#
-# WALLDIR="$HOME/Pictures/wallpaper/manga"
-#
-# CHOICE=$(find "$WALLDIR" -type f \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.webp' -o -iname '*.jpeg' \) \
-#   | sort \
-#   | rofi -dmenu -p "Pick wallpaper")
-#
-# [ -z "$CHOICE" ] && exit
-#
-#
-# swww img "$CHOICE" --transition-type any --transition-duration 1
-#
 #!/bin/bash
 
 WALLDIR="$HOME/Pictures/wallpaper"
