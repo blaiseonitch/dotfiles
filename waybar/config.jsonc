@@ -3,11 +3,10 @@
 	"layer": "top", // waybar at top layer
 	"position": "top", // waybar position (top|bottom|left|right)
 	"margin-top": 5,
-	"height": 5, // waybar height (to be removed for auto height)
-	"width": 1500, // waybar width
-	"spacing": 0.5, // gaps between modules (4px)
+	// "height": 5, // waybar height (to be removed for auto height)
+	// "width": 1500, // waybar width
+	"spacing": 0.1, // gaps between modules (4px)
 	"modules-left": [
-		// "custom/mpd",
 		"mpris"
 	],
 	"modules-center": [
@@ -15,12 +14,11 @@
 		"hyprland/workspaces"
 	],
 	"modules-right": [
-		"tray",
 		"pulseaudio",
 		"network",
 		"battery",
-		"clock",
-		"power-profiles-daemon"
+		"memory",
+		"clock"
 	],
 	"hyprland/workspaces": {
 		"format": "{name}",
@@ -36,21 +34,12 @@
 	"clock": {
 		"timezone": "Africa/Lagos",
 		"tooltip-format": "<big>{:%y %b}</big>\n<tt><small>{calendar}</small></tt>",
-		"format": "{:%d/%m/%y - %H:%M}"
+		"format": "{:%H:%M:%S}",
+		"interval": 1
 	},
-	"backlight": {
-		"format": "{percent}% {icon}",
-		"format-icons": [
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			""
-		]
+	"memory": {
+		"interval": 30,
+		"format": "{used:0.1f}G/{total:0.1f}G"
 	},
 	"battery": {
 		"interval": 60,
@@ -58,10 +47,10 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": "{capacity}% {icon}",
-		"format-full": "{capacity}% {icon}",
-		"format-charging": "{capacity}% {icon}",
-		"format-plugged": "{capacity}% {icon}",
+		"format": "|{capacity}% {icon} |",
+		"format-full": "|{capacity}% {icon} |",
+		"format-charging": "|{capacity}%  {icon} |",
+		"format-plugged": "|{capacity}%  {icon} |",
 		"format-icons": [
 			"",
 			"",
@@ -70,30 +59,12 @@
 			""
 		]
 	},
-	"power-profiles-daemon": {
-		"format": "{icon}",
-		"tooltip-format": "power profile: {profile}",
-		"format-icons": {
-			"default": "",
-			"performance": "",
-			"balanced": "",
-			"power-saver": ""
-		}
-	},
-	// "custom/mpd": {
-	// 	"exec": "~/.config/waybar/scripts/mpd_status.sh",
-	// 	"interval": 2,
-	// 	"return-type": "json",
-	// 	"tooltip": true,
-	// 	"on-click": "mpc prev",
-	// 	"on-click-right": "mpc next",
-	// 	"on-click-middle": "mpc toggle"
-	// },
 	"network": {
-		"format-wifi": "",
+		"format-wifi": " ",
 		"format-ethernet": "󰈀",
 		"format-linked": "",
-		"format-disconnected": "󰖪"
+		"format-disconnected": "󰖪",
+		"interval": 10
 	},
 	"pulseaudio": {
 		"format": "{volume}% {icon}",
@@ -122,6 +93,7 @@
 		"format-paused": "⏸ {title} - {artist}",
 		"format-stopped": "No media playing",
 		"max-length": 40,
+		"interval": 1,
 		// Controls
 		"on-click": "playerctl previous",
 		"on-click-middle": "playerctl play-pause",
