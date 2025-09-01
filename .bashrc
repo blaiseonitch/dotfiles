@@ -20,6 +20,7 @@ alias weather='curl wttr.in' #Check weather
 
 PS1='[\u@\h \W]\$ '
 
+export CLANG_FORMAT_STYLE="file:~/.clang-format"
 export PATH=$PATH:/home/blaze/.local/bin
 export TERM="xterm-256color"
 export TERMINAL="kitty"
