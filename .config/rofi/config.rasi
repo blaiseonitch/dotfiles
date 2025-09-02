@@ -11,7 +11,7 @@
     hlt-color: #000000FF;
     alt-color: #111111FF;
     wbg-color: #000000CC;
-    w-border: 2px solid;
+    w-border: 0px solid;
     w-border-color: #FFFFFFFF;
     w-padding: 12px;
 }
@@ -24,7 +24,7 @@ configuration {
 
 listview {
     columns: 1;
-    lines: 7;
+    lines: 5;
     fixed-height: true;
     fixed-columns: true;
     cycle: false;
@@ -52,7 +52,7 @@ inputbar {
 }
 
 entry {
-    placeholder: "Search Apps";
+    placeholder: "Search";
     text-color: @fg-color;
     placeholder-color: @fgp-color;
 }
