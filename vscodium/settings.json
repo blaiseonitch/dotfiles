@@ -1,0 +1,29 @@
+{
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "window.controlsStyle": "hidden",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.autoLockGroups": {
+        "workbench.editor.chatSession": false
+    },
+    "workbench.sideBar.location": "right",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.editor.titleScrollbarVisibility": "hidden",
+    "window.restoreWindows": "none",
+    "terminal.external.windowsExec": "",
+    "workbench.reduceMotion": "on",
+    "workbench.startupEditor": "none",
+    "window.commandCenter": false,
+    "editor.minimap.size": "fill",
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "window.title": "${activeEditorShort}"
+}
